@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const eventsList = document.getElementById('events-list');
     const filterDateInput = document.getElementById('filter-date');
 
-    const API_BASE_URL = 'http://localhost:3000/api'; // Backend API URL
+    const API_BASE_URL = 'https://juicy-stupendous-quince.glitch.me/api'; // Backend API URL
 
     // Load events when the page loads
     loadEvents();
