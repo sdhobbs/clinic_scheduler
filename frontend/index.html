@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Simple Scheduler</h1>
+
+        <div class="input-section">
+            <h2>Add New Event</h2>
+            <label for="event-date">Date:</label>
+            <input type="date" id="event-date" required>
+
+            <label for="event-time">Time:</label>
+            <input type="time" id="event-time" required>
+
+            <label for="event-desc">Description:</label>
+            <input type="text" id="event-desc" placeholder="Event description" required>
+
+            <button id="add-event-btn">Add Event</button>
+        </div>
+
+        <div class="events-section">
+            <h2>Scheduled Events</h2>
+            <div class="filter-section">
+                <label for="filter-date">Show events for date:</label>
+                <input type="date" id="filter-date">
+            </div>
+            <ul id="events-list">
+                </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

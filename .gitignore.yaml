@@ -1,0 +1,6 @@
+# Ignore Node.js dependencies in the backend
+backend/node_modules/
+
+# Ignore the simple JSON database if you want to start fresh on deploy
+# or manage it separately. For now, let's include it if it's small.
+# backend/db.json
